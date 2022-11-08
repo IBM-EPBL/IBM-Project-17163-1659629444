@@ -1,0 +1,62 @@
+.home-page{
+     background-image: url("../images/loan.jpg");
+     background-size: 100%;
+     background-repeat: no-repeat;
+     color: white;
+}
+.predict-page{
+    background-image: url("../images/piggy-bank.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.submit-h1{
+  margin: 5%;
+  font-weight: bold;
+  color: Crimson;
+  background-color: #ffffff;
+  opacity: 0.7;
+}
+.submit-page{
+    background-image: url("../images/result.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.place-center{
+    text-align: center;
+    color: crimson;
+    font-size: 80px;
+}
+
+label{
+    padding-left: 1%;
+    color: white;
+}
+
+input, button{
+    margin: 0.5% 3%;
+}
+.input-value{
+    margin: 0.5% 3%;
+}
+select{
+    width: 170px;
+}
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: Lime;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
