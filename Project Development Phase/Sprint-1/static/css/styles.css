@@ -42,21 +42,3 @@ input, button{
 select{
     width: 170px;
 }
-a:link {
-  color: red;
-}
-
-/* visited link */
-a:visited {
-  color: Lime;
-}
-
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
-
-/* selected link */
-a:active {
-  color: blue;
-}
