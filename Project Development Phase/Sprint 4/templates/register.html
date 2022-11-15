@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png">
+  <link rel="stylesheet" href="static/css/style.css">
+
+  <title>Smart Lender</title>
+</head>
+<body>
+  <main>
+    <div class="content">
+      <h1>SMART LENDER</h1>
+      <p>Applicant Credibility Prediction For Loan Approval</p>
+    </div>
+    <div class="signup">
+      <div class="signup__pricing">
+        <p><strong>Let me in!</strong></p>
+      </div>
+      <form action="/loan" class="signup__form" method="post">
+        <input type="text" name="first-name" id="first-name" aria-label="First Name" placeholder="First Name" required>
+        <input type="text" name="last-name" id="last-name" aria-label="Last Name" placeholder="Last Name" required>
+        <input type="email" name="email" id="email" aria-label="Email Address" placeholder="Email Address" required>
+
+
+        <a class="button" href="loan">Register</a>
+
+      </form>
+    </div>
+  </main>
+</body>
+<script src="js/validation.js"></script>
+</html>
