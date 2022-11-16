@@ -16,7 +16,7 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
-loan_data = pd.read_csv(r'C:\Users\bhaav\OneDrive\Desktop\My_Projects_DS\LoanDataset.csv')
+loan_data = pd.read_csv(r'LoanDataset.csv')
 
 
 """## EDA
