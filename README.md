@@ -1,3 +1,4 @@
+![ProjectImage](https://user-images.githubusercontent.com/117197803/202488342-08163dd4-8735-433b-be58-397ec971e81b.png)
 
 # Smart Lender - Applicant Credibility Prediction for Loan Approval
 
@@ -6,13 +7,20 @@ Loans are the core commercial enterprise of banks. The primary earnings comes wi
 However, they nevertheless don’t have warranty if the applicant is capable of pay off the mortgage with no problems.
 In this academic, we’ll construct a predictive model to are expecting if an applicant is able to pay off the lending company or no longer.
 
+![ProjectImage](https://c.tenor.com/D1YYh-gf7dgAAAAC/loan-loan-approval.gif)
+
 
 ## Purpose
 
 The prediction of credit defaulters is one of the difficult tasks for any bank. But by forecasting the loan defaulters, the banks definitely may reduce their loss by reducing their non-profit assets, so that recovery of approved loans can take place without any loss and it can play as the contributing parameter of the bank statement. This makes the study of this loan approval prediction important. Machine Learning techniques are very crucial and useful in the prediction of these types of data.
+
+![](https://www.coinbureau.com/wp-content/uploads/2021/08/resized-image-Promo-1.jpeg)
+
 ## Understanding the problem statement
 
 Dream Housing Finance corporation offers in all sorts of domestic loans. They have a presence across all urban, semi-urban and rural regions. The consumer first applies for a home loan and after that, the enterprise validates the client eligibility for the loan.
+
+![](https://dreamhomefinancing.com/wp-content/uploads/2018/05/logo2.png)
 
 The company wants to automate the loan eligibility system (real-time) based on client element furnished at the same time as filling out on line software paperwork. These details are Gender, Marital Status, Education, number of Dependents, Income, Loan Amount, Credit History, and others
 
@@ -22,7 +30,9 @@ You can discover the whole details about the hassle announcement right here and 
 
 As noted above this is a Binary Classification trouble wherein we need to predict our Target label that's “Loan Status”.
 
-Loan fame may have  values: Yes or NO.  
+![](https://i.pinimg.com/originals/07/fa/a6/07faa6440e1b84e128e6bca5a6309dc4.gif)
+
+Loan status many have values: YES or NO.  
 Yes: if the loan is approved  
 NO: if the loan is not approved
 
@@ -57,7 +67,10 @@ Application Building:
 
 Final UI:  
 ·      Dashboard Of the flask app.
+
 ## About the dataset
+
+![dataset_columns](https://user-images.githubusercontent.com/117197803/202489293-aafbce7d-274c-459d-9908-c54bf38cbb9c.png)
 
 ## Future scope
 
