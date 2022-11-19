@@ -23,8 +23,26 @@ def register():
 
     response_data = (response.json())
     val = (response_data['data']['item'][2]['description'])
+    
+    url = "https://api.apilayer.com/exchangerates_data/convert?to=INR&from=USD&amount=1"
 
-    return render_template('register.html', news = val)
+    payload = {}
+    headers = {
+        "apikey": "H4ggfqM7nxp8nyyi8q1hJFv7HoVsWUUK"
+    }
+
+    response = requests.request("GET", url, headers=headers, data=payload)
+
+    result = response.json()
+    rate = (result['result'])
+
+    import finnhub
+    finnhub_client = finnhub.Client(api_key="cdsgnbiad3icmfr07t20cdsgnbiad3icmfr07t2g")
+
+    price = (finnhub_client.quote('BKSC')['c'])
+
+
+    return render_template('register.html', news = val, rate= rate, price = price)
 
 
 @app.route('/loan', methods=['GET', 'POST'])
