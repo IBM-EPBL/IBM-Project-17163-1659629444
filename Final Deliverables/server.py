@@ -15,7 +15,16 @@ def home():
 @app.route('/register', methods=['GET', 'POST'])
 def register():
 
-    return render_template('register.html')
+    import requests
+    headers = {
+        'X-Mboum-Secret': "BHbiTyBaWfYteexXDCS43kQB37lxuPbOMjNqcuhsSMeQSZ1gEemdmnjttKTo"
+    }
+    response = requests.get(url="https://mboum.com/api/v1/ne/news/?symbol=AAP", headers=headers)
+
+    response_data = (response.json())
+    val = (response_data['data']['item'][2]['description'])
+
+    return render_template('register.html', news = val)
 
 
 @app.route('/loan', methods=['GET', 'POST'])
